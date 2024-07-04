@@ -1,4 +1,3 @@
-/* dark-mode.css */
 body.dark-mode {
     background-color: #1a1a1a;
     color: #f0f0f0;
@@ -12,12 +11,16 @@ body.dark-mode {
     color: #f0f0f0;
 }
 
-.dark-mode .hero,
-.dark-mode .about-hero {
+.dark-mode .about-content,
+.dark-mode .programming-languages,
+.dark-mode .certifications,
+.dark-mode .gallery,
+.dark-mode .social-links {
     background-color: #2a2a2a;
+    padding: 1rem;
+    border-radius: 5px;
 }
 
-.dark-mode .post-card,
 .dark-mode .hobby-list li,
 .dark-mode .language-list li,
 .dark-mode .cert-list li,
@@ -37,6 +40,7 @@ body.dark-mode {
 .dark-mode footer {
     background-color: #2a2a2a;
     color: #f0f0f0;
+    border-top-color: #444;
 }
 
 .dark-mode #theme-toggle svg {
