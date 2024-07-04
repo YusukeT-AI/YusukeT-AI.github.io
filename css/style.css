@@ -226,34 +226,38 @@ body {
 }
 /* About page styles */
 .about-page {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
 .about-page h1 {
     font-size: 2.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     text-align: center;
 }
 
-.about-hero {
+.about-content {
     display: flex;
-    align-items: center;
+    gap: 2rem;
     margin-bottom: 2rem;
 }
 
-.about-profile-image {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-right: 2rem;
+.about-main {
+    flex: 2;
 }
 
-.about-hero-content h2 {
-    font-size: 1.8rem;
-    margin-bottom: 0.5rem;
+.about-sidebar {
+    flex: 1;
+}
+
+.about-profile-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
 }
 
 .about-page section {
@@ -331,14 +335,12 @@ body {
 }
 
 @media (max-width: 768px) {
-    .about-hero {
+    .about-content {
         flex-direction: column;
-        text-align: center;
     }
 
     .about-profile-image {
-        margin-right: 0;
-        margin-bottom: 1rem;
+        max-width: 100%;
     }
 
     .hobby-list,
