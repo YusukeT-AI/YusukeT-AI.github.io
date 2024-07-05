@@ -46,3 +46,21 @@ body.dark-mode {
 .dark-mode #theme-toggle svg {
     fill: #f0f0f0;
 }
+/* Contact page dark mode styles */
+.dark-mode .contact-page {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+}
+
+.dark-mode .contact-item a {
+    color: #4da3ff;
+}
+
+.dark-mode .social-list a {
+    background-color: #333;
+    color: #f0f0f0;
+}
+
+.dark-mode .social-list a:hover {
+    background-color: #444;
+}
