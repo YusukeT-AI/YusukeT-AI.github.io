@@ -19,3 +19,5 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
     });
 });
+
+document.cookie = "session=123; Secure; HttpOnly; SameSite=Strict";

@@ -36,3 +36,4 @@ function loadBlogPosts() {
 }
 
 document.addEventListener('DOMContentLoaded', loadBlogPosts);
+document.cookie = "session=123; Secure; HttpOnly; SameSite=Strict";
